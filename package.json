@@ -5,11 +5,13 @@
 	"type": "module",
 	"private": true,
 	"devDependencies": {
-		"@types/bun": "latest"
+		"@types/bun": "^1.4.0",
+		"oxfmt": "^0.66.0",
+		"oxlint": "^1.81.0"
 	},
 	"peerDependencies": {
 		"commander": "^15.0.0",
-		"typescript": "^5"
+		"typescript": "^7.0.2"
 	},
 	"dependencies": {
 		"@commander-js/extra-typings": "^15.0.0",
